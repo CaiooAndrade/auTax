@@ -16,6 +16,7 @@ app.use(async(req, res, next) =>{
 
 app.use(require('./routes'))
 
+app.use(express.static('dist'))
 
 app.listen(serverPort, () => {
  console.log(`Starting backend server on port ${serverPort}`);
