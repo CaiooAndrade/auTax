@@ -6,7 +6,6 @@ import {routes} from './routes.js';
 
 import axios from 'axios';
 axios.defaults.timeout = 5000;
-//axios.defaults.baseURL = 'http://localhost:3000';
 
 Vue.config.productionTip = false
 const router = new VueRouter({
